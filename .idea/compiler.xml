@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wx-school-biz" />
+        <module name="wx-school-core" />
+        <module name="wx-school-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="wx-school-service" target="1.8" />
+      <module name="wxschooldata" target="1.8" />
+      <module name="wxschoolweb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

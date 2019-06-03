@@ -1,0 +1,17 @@
+server:
+  port: 8087
+  address: localhost
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 7000
+    timeout: 10000
+    pool:
+      max-idle: 300
+      max-total: 600
+      max-wait: 1000
+      block-when-exhausted: true
+      min-idle: 10
+  application:
+      name: wx-school
