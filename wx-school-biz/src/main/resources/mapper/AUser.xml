@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wx.dao.AUserDao">
+    <resultMap id="AUserMap" type="com.wx.entity.po.AUser">
+        <result column="username" property="username" jdbcType="VARCHAR"/>
+        <result column="date" property="date" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <insert id="insertAUser" parameterType="com.wx.entity.po.AUser">
+        insert into a_user (username, date)
+        values (#{username}, #{date})
+    </insert>
+
+    <select id="getTicketByTicketId" resultMap="AUserMap" parameterType="map">
+        select * from a_user where username = #{username, jdbcType=VARCHAR}
+    </select>
+</mapper>
