@@ -10,6 +10,6 @@ import java.util.List;
 public interface ADao {
 
     @Select("select * from tb_a where id = #{id}")
-    List<AEntity> selectOne(String id);
+    List<AEntity> selectOne(Integer id);
 
 }

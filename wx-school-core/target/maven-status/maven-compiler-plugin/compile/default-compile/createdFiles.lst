@@ -1,11 +1,14 @@
 com/wx/redis_pub_sub/sub/RedisSubscribeHandler.class
 com/wx/redis/impl/RedisJedisPoolImpl$1.class
+com/wx/redis_pub_sub/RedisPublishListener.class
 com/wx/redis_pub_sub/pub/RedisPublisher.class
-com/wx/redis_pub_sub/sub/DemoSub.class
+com/wx/self/InjectBeanSelfProcessor.class
 com/wx/redis/impl/RedisJedisPoolImpl$2.class
+com/wx/redis_pub_sub/sub/DemoSubscribeHandler.class
+com/wx/utils/TimestampUtils.class
+com/wx/self/BeanSelfAware.class
 com/wx/redis/RedisService.class
 com/wx/constant/CommonConstant.class
-com/wx/redis_pub_sub/RedisPubListener.class
 com/wx/redis/impl/RedisJedisPoolImpl$RedisCommand.class
 com/wx/redis_pub_sub/RedisSubscribeManager.class
 com/wx/utils/SpringContextUtil.class

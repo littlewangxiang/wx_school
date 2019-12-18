@@ -1,2 +1,12 @@
-com/wx/service/DemoService.class
+com/wx/entity/po/AUser.class
+com/wx/entity/po/BUser.class
+com/wx/dao/BUserDao.class
+com/wx/dao/AUserDao.class
+com/wx/service/impl/AServiceImpl.class
+com/wx/service/AService.class
+com/wx/service/Demo2Service.class
 com/wx/service/impl/DemoServiceImpl.class
+com/wx/service/impl/Demo2ServiceImpl.class
+com/wx/entity/po/AEntity.class
+com/wx/dao/ADao.class
+com/wx/service/DemoService.class
