@@ -1,6 +1,7 @@
 package com.wx.utils.sign.rsa;
 
-import com.wx.util.Base64Util;
+
+import com.wx.utils.sign.Base64Util;
 
 import javax.crypto.Cipher;
 import java.security.KeyFactory;

@@ -1,6 +1,7 @@
 package com.wx.utils.sign.hmac;
 
-import com.wx.util.Base64Util;
+
+import com.wx.utils.sign.Base64Util;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;

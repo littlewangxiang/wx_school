@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a33ffb32-539b-499f-aa90-7fbb6531528a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx-school-web/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wx-school-web/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx-school-web/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wx-school-web/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx-school-web/target/test-classes/com/wx/service/DemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/wx-school-web/target/test-classes/com/wx/service/DemoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx-school-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wx-school-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/hmac/HmacSHAUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/hmac/HmacSHAUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/rsa/RSAKeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/rsa/RSAKeyGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/rsa/RSAUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/rsa/RSAUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,12 +26,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoTestStreamImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/service/impl/DemoTestStreamImpl.java">
+    <leaf>
+      <file leaf-file-name="FileUpload.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/controller/FileUpload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="39" column="78" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +39,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/resources/application-dev.yml">
+      <file leaf-file-name="TimestampUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/TimestampUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="-10729">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/TestUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx-school-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -54,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WinApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/WinApplication.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="26" selection-start-line="8" selection-end-line="9" />
+            <state relative-caret-position="205">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultipartFile.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.21.RELEASE/spring-web-4.3.21.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -66,56 +105,8 @@
       <file leaf-file-name="DemoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/controller/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="33" selection-start-line="28" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17280">
-              <caret line="1207" column="64" selection-start-line="1207" selection-start-column="53" selection-end-line="1207" selection-end-column="64" />
-              <folding>
-                <element signature="e#46394#46395#0" expanded="true" />
-                <element signature="e#46458#46459#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmptyStringPredict.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/function/EmptyStringPredict.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SquaresFunction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/function/SquaresFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="28" />
+              <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -133,7 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring-boot-maven-plugin</find>
       <find>jedisPoolConfig init</find>
       <find>init</find>
       <find>pa</find>
@@ -163,6 +153,7 @@
       <find>12345</find>
       <find>userId</find>
       <find>172.28.255.254</find>
+      <find>bet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,12 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/SpringContextUtil.java" />
-        <option value="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/constant/CommonConstant.java" />
-        <option value="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/TimestampUtils.java" />
-        <option value="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/redis_pub_sub/sub/DemoSubscribeHandler.java" />
-        <option value="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/redis_pub_sub/RedisPubListener.java" />
-        <option value="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/redis_pub_sub/RedisPublishListener.java" />
         <option value="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/redis_pub_sub/RedisSubscribeManager.java" />
         <option value="$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/WinApplication.java" />
         <option value="$PROJECT_DIR$/wx-school-biz/src/main/resources/mapper/Ticket.xml" />
@@ -212,11 +197,9 @@
         <option value="$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/controller/DemoSocketController.java" />
         <option value="$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/service/ChatDemoService.java" />
         <option value="$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/config/MyEndpointConfigure.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/wx-school-web/pom.xml" />
         <option value="$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/config/WebSocketConfig.java" />
         <option value="$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/service/websocket/push/ProductWebSocket.java" />
-        <option value="$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/controller/DemoController.java" />
         <option value="$PROJECT_DIR$/wx-school-biz/pom.xml" />
         <option value="$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/controller/UserLoginController.java" />
         <option value="$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/utils/WebSocketMapUtil.java" />
@@ -225,12 +208,20 @@
         <option value="$PROJECT_DIR$/wx-school-biz/src/test/java/service/UserLoginServiceTest.java" />
         <option value="$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/service/impl/UserLoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/wx-school-web/src/test/java/com/wx/service/DemoTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/function/EmptyPredict.java" />
         <option value="$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/function/EmptyStringPredict.java" />
         <option value="$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/function/SquaresFunction.java" />
         <option value="$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/service/impl/DemoTestStreamImpl.java" />
         <option value="$PROJECT_DIR$/wx-school-web/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/controller/FileUpload.java" />
+        <option value="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/TestUtils.java" />
+        <option value="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/hmac/HmacSHAUtil.java" />
+        <option value="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/rsa/RSAKeyGenerator.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-school-core/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/rsa/RSAUtils.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -269,8 +260,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -357,20 +349,12 @@
               <item name="wx" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="wx_school" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wx_school" type="462c0819:PsiDirectoryNode" />
-              <item name="wx-school-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,12 +378,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.wx.service.impl" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wx.service" />
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign" />
+      <recent name="$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/config" />
+      <recent name="$PROJECT_DIR$/wx-school-biz/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/wx-school-web/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wx.self" />
@@ -407,10 +394,8 @@
       <recent name="com.wx.entity.po" />
       <recent name="com.wx.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/config" />
-      <recent name="$PROJECT_DIR$/wx-school-biz/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/wx-school-web/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wx.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -425,7 +410,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WinApplication">
+  <component name="RunManager" selected="Application.TestUtils">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -436,6 +421,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wx.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wx.utils.TestUtils" />
+      <module name="wx-school-core" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wx.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -479,29 +475,6 @@
       <option name="PACKAGE_NAME" value="com.wx.service" />
       <option name="MAIN_CLASS_NAME" value="com.wx.service.DemoTest" />
       <option name="METHOD_NAME" value="Test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DemoTest.mybatisTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wx-school-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wx.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wx.service" />
-      <option name="MAIN_CLASS_NAME" value="com.wx.service.DemoTest" />
-      <option name="METHOD_NAME" value="mybatisTest1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -589,19 +562,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.WinApplication" />
-      <item itemvalue="JUnit.DemoTest.mybatisTest1" />
       <item itemvalue="JUnit.DemoTest.Test3" />
       <item itemvalue="JUnit.DemoTest.Test2" />
       <item itemvalue="JUnit.UserLoginServiceTest.Test2" />
       <item itemvalue="Application.DemoTestStreamImpl" />
+      <item itemvalue="Application.TestUtils" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestUtils" />
         <item itemvalue="Application.DemoTestStreamImpl" />
         <item itemvalue="JUnit.DemoTest.Test2" />
         <item itemvalue="JUnit.UserLoginServiceTest.Test2" />
         <item itemvalue="JUnit.DemoTest.Test3" />
-        <item itemvalue="JUnit.DemoTest.mybatisTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -654,6 +627,8 @@
       <workItem from="1582202813306" duration="626000" />
       <workItem from="1582203530553" duration="719000" />
       <workItem from="1582250298153" duration="118000" />
+      <workItem from="1582958003876" duration="463000" />
+      <workItem from="1583412212399" duration="3738000" />
     </task>
     <servers />
   </component>
@@ -690,7 +665,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130831000" />
+    <option name="totallyTimeSpent" value="135032000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,15 +692,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4339152" />
       <window_info anchor="bottom" id="TODO" order="4" weight="0.32917705" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32917705" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32917705" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="13" visible="true" weight="0.33541146" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32917705" />
-      <window_info anchor="bottom" id="Run" order="13" weight="0.33541146" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32917705" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.36533666" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26251787" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.3254364" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2653791" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -733,7 +709,6 @@
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32917705" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
@@ -820,99 +795,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/service/Demo2Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/entity/po/AEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/service/AService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.21.RELEASE/spring-web-4.3.21.RELEASE.jar!/org/springframework/web/bind/annotation/RequestParam.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/javax/servlet/http/HttpServletRequestWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.21.RELEASE/spring-web-4.3.21.RELEASE.jar!/org/springframework/http/HttpRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.61/fastjson-1.2.61.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21551">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.61/fastjson-1.2.61.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/connector/RequestFacade.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="143" column="52" selection-start-line="143" selection-start-column="52" selection-end-line="143" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/service/impl/Demo2ServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/entity/bo/JSONTestParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/service/ChatDemoService.java" />
-    <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/config/MyEndpointConfigure.java" />
     <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/service/impl/DemoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -925,13 +807,6 @@
     <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/controller/DemoSocketController.java" />
     <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/config/MyEndpointConfigure.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/utils/WebSocketMapUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -994,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/service/websocket/ChatWebSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx-school-biz/src/test/java/service/UserLoginServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/service/impl/UserLoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1018,13 +886,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wx-school-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wx-school-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst">
       <provider selected="true" editor-type-id="text-editor">
@@ -1096,20 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wx-school-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="33" selection-start-line="28" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/WinApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1124,16 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="39" column="78" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/controller/DemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1141,6 +978,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/AESUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/message_digest/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/message_digest/SHAUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/message_digest/readMe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/sha3/SHA3Util.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/Base64Util.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/service/websocket/ChatWebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-biz/src/main/java/com/wx/utils/WebSocketMapUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.21.RELEASE/spring-web-4.3.21.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-web/src/main/java/com/wx/controller/FileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/TimestampUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10729">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/hmac/HmacSHAUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/rsa/RSAKeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/hmac/HmacSHA3Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/sign/rsa/RSAUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx-school-core/src/main/java/com/wx/utils/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
