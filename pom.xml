@@ -37,6 +37,7 @@
         <mybatis.spring.boot.version>2.0.1</mybatis.spring.boot.version>
         <fastjson.version>1.2.61</fastjson.version>
         <bouncycastle.version>1.60</bouncycastle.version>
+        <rabbitmq-version>3.6.5</rabbitmq-version>
     </properties>
 
     <dependencyManagement>
@@ -132,6 +133,13 @@
                 <version>${bouncycastle.version}</version>
             </dependency>
 
+            <!-- mq -->
+            <!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+            <dependency>
+                <groupId>com.rabbitmq</groupId>
+                <artifactId>amqp-client</artifactId>
+                <version>${rabbitmq-version}</version>
+            </dependency>
             <!-- -->
             <dependency>
                 <groupId>com.school</groupId>
